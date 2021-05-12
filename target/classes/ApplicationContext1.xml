@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="
+		        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+		<bean id="empObj" class="com.ojas.emp.Springcoreproj.model.EmployeeCollections">
+			<property name="empList">
+				<list>
+					<value> A</value>
+					<value> A</value>
+					<value> A</value>
+					<value> B</value>
+					<value> C</value>
+					<value> D</value>
+				</list>
+			</property>
+			<property name="empSet">
+				<map>
+					<entry key="k2" value="v2" />
+					<entry key="k3">
+						<value> V3</value>
+					</entry>
+	
+				</map>
+	
+			</property>
+	
+			<property name="empProperties">
+				<props>
+					<prop key="key1">
+	
+						val1
+					</prop>
+					<prop key="key2">
+						val2
+	
+					</prop>
+				</props>
+	
+	
+	
+	
+	
+			</property>
+		</bean>
+	
+	</beans>
